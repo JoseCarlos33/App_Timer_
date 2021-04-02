@@ -1,0 +1,113 @@
+
+button{
+  position: absolute;
+  width: 178px;
+  height: 65px;
+  left: 95px;
+  top: 320px;
+  font-size: 38px;
+  color: white;
+  font-family: Rhodium Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  background: conic-gradient(from 7.37deg at 96.39% 100%, rgb(162, 0, 255) -8.79deg, #2724d1 120deg, rgb(162, 0, 255) 351.21deg, #2f00ff 480deg);
+  border-radius: 15px;
+  border-color: white;
+}
+
+.borda{
+  position: absolute;
+  width: 334px;
+  height: 595px;
+  left: 13px;
+  top: 23px;
+
+  border: 3px solid #cc00f5f6;
+  box-sizing: border-box;
+  backdrop-filter: blur(4px);
+
+  border-radius: 10px;
+}
+
+div{
+  position: absolute;
+  width: 360px;
+  height: 640px;
+  left: 0px;
+  top: 0px;
+
+  background: rgb(7, 7, 7);
+  
+  box-sizing: border-box;
+}
+
+.contador{
+  
+  color: #FFFAFA;
+  width: 300px;
+  height:120px;
+  left: 35px;
+  top: 30px;
+}
+
+
+
+span{
+  
+  font-size: 100px;
+  display: inline-block;
+  width: 19%;
+  height: 99%;
+  text-align: center;
+  font-weight: bold;
+  color: #ff00ea;
+  padding: 0;
+  margin: 1px;
+}
+
+#separa1{
+  margin-left: 5px;
+}
+
+#separa2{
+  margin-right: 45px;
+}
+
+#doisPontos{
+  color: black;
+}
+
+.doisPontos{
+  position: absolute;
+  color: #FFFAFA;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ff00ea;
+  left: 118px;
+  top: -7px
+}
+
+
+
+input{
+  position: absolute;
+  width: 139px;
+  height: 39px;
+  left: 110px;
+  top: 198px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border: solid white;
+  background-color: rgb(34, 34, 33);
+  color: #FFFAFA;
+  border-radius: 10px;
+}
+
+input[type=text]:focus {
+  background-color: rgb(255, 255, 255);
+  color: #1d1d1d;
+  font-size: 32px;
+}
